@@ -394,7 +394,6 @@
 <wire x1="16.256" y1="50.165" x2="15.621" y2="49.53" width="0.2032" layer="21"/>
 <wire x1="15.621" y1="49.53" x2="14.351" y2="49.53" width="0.2032" layer="21"/>
 <wire x1="14.351" y1="49.53" x2="13.716" y2="50.165" width="0.2032" layer="21"/>
-<wire x1="11.176" y1="51.435" x2="11.176" y2="50.165" width="0.2032" layer="21"/>
 <wire x1="11.811" y1="52.07" x2="11.176" y2="51.435" width="0.2032" layer="21"/>
 <wire x1="11.176" y1="50.165" x2="11.811" y2="49.53" width="0.2032" layer="21"/>
 <wire x1="13.081" y1="49.53" x2="11.811" y2="49.53" width="0.2032" layer="21"/>
@@ -778,6 +777,21 @@
 <pad name="SPI_MOSI" x="54.737" y="27.94" drill="1.1" diameter="1.9304"/>
 <pad name="SPI_RESET" x="52.197" y="25.4" drill="1.1" diameter="1.9304"/>
 <pad name="SPI_GND" x="54.737" y="25.4" drill="1.1" diameter="1.9304"/>
+<pad name="SDA_HS" x="9.906" y="50.8" drill="1" diameter="1.9304"/>
+<pad name="SCL_HS" x="7.366" y="50.8" drill="1" diameter="1.9304"/>
+<wire x1="9.271" y1="52.07" x2="10.541" y2="52.07" width="0.2032" layer="21"/>
+<wire x1="10.541" y1="52.07" x2="11.176" y2="51.435" width="0.2032" layer="21"/>
+<wire x1="9.271" y1="52.07" x2="8.636" y2="51.435" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="52.07" x2="8.001" y2="52.07" width="0.2032" layer="21"/>
+<wire x1="8.001" y1="52.07" x2="8.636" y2="51.435" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="52.07" x2="6.096" y2="51.435" width="0.2032" layer="21"/>
+<wire x1="8.001" y1="49.53" x2="6.731" y2="49.53" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="49.53" x2="6.096" y2="50.165" width="0.2032" layer="21"/>
+<wire x1="8.001" y1="49.53" x2="8.636" y2="50.165" width="0.2032" layer="21"/>
+<wire x1="10.541" y1="49.53" x2="9.271" y2="49.53" width="0.2032" layer="21"/>
+<wire x1="9.271" y1="49.53" x2="8.636" y2="50.165" width="0.2032" layer="21"/>
+<wire x1="10.541" y1="49.53" x2="11.176" y2="50.165" width="0.2032" layer="21"/>
+<wire x1="6.096" y1="51.435" x2="6.096" y2="50.165" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -876,6 +890,8 @@
 <pin name="SPIVCC" x="20.32" y="-63.5" length="middle" rot="R180"/>
 <pin name="MOSI" x="20.32" y="-66.04" length="middle" rot="R180"/>
 <pin name="SPIGND" x="20.32" y="-68.58" length="middle" rot="R180"/>
+<pin name="HS_SDA" x="20.32" y="-53.34" length="middle" rot="R180"/>
+<pin name="HS_SCL" x="20.32" y="-55.88" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -967,6 +983,8 @@
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
 <connect gate="G$1" pin="GND@3" pad="GND@3"/>
 <connect gate="G$1" pin="GND@4" pad="GND@4"/>
+<connect gate="G$1" pin="HS_SCL" pad="SCL_HS"/>
+<connect gate="G$1" pin="HS_SDA" pad="SDA_HS"/>
 <connect gate="G$1" pin="MISO" pad="SPI_MISO"/>
 <connect gate="G$1" pin="MOSI" pad="SPI_MOSI"/>
 <connect gate="G$1" pin="RESET" pad="RESET"/>
