@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -30,7 +30,7 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
@@ -173,6 +173,8 @@
 <text x="3.4925" y="2.2225" size="1.27" layer="25">GND</text>
 <text x="0" y="17.4625" size="1.27" layer="25">BALANCE</text>
 <text x="0.3175" y="35.56" size="1.27" layer="25">STATUS</text>
+<dimension x1="-1.27" y1="53.33" x2="94.92" y2="53.33" x3="46.825" y3="59.3725" textsize="1.778" layer="37"/>
+<dimension x1="94.92" y1="53.33" x2="94.92" y2="-0.3175" x3="100.6475" y3="26.50625" textsize="1.778" layer="37"/>
 </plain>
 <libraries>
 <library name="Arduino-Boards">

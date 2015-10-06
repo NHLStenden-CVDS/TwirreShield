@@ -791,10 +791,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.905" y1="0" x2="3.00355" y2="1.27" width="0.127" layer="21" curve="-150.255119" cap="flat"/>
 <wire x1="3.00355" y1="1.27" x2="3.00355" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="3.00355" y1="-1.27" x2="-1.905" y2="0" width="0.127" layer="21" curve="-150.255119" cap="flat"/>
-<pad name="P1" x="-1.27" y="0" drill="0.7" diameter="1.016"/>
-<pad name="P2" x="0" y="0" drill="0.7" diameter="1.016"/>
-<pad name="C" x="1.27" y="0" drill="0.7" diameter="1.016"/>
-<pad name="P3" x="2.54" y="0" drill="0.7" diameter="1.016"/>
+<pad name="P1" x="-1.27" y="0" drill="0.6"/>
+<pad name="P2" x="0" y="0" drill="0.6"/>
+<pad name="C" x="1.27" y="0" drill="0.6"/>
+<pad name="P3" x="2.54" y="0" drill="0.6"/>
 </package>
 <package name="JST-4">
 <wire x1="-3.75" y1="-2.3" x2="-3.75" y2="-2.85" width="0.127" layer="21"/>
