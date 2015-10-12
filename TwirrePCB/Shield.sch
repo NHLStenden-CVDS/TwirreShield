@@ -14274,13 +14274,13 @@ W = angled&lt;p&gt;
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R20" library="resistor" deviceset="R-EU_" device="R0805" value="100"/>
+<part name="R20" library="resistor" deviceset="R-EU_" device="R0805" value="220"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="R0805" value="100"/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="R0805" value="100"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="R0805" value="220"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="R0805" value="220"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="Arduino-Boards" deviceset="RGB5MM" device="RGB5MM"/>
 <part name="U$2" library="Arduino-Boards" deviceset="JST-4" device=""/>
@@ -14311,7 +14311,7 @@ W = angled&lt;p&gt;
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
-<part name="R21" library="resistor" deviceset="R-EU_" device="R0805" value="100"/>
+<part name="R21" library="resistor" deviceset="R-EU_" device="R0805" value="220"/>
 <part name="LED2" library="led" deviceset="LED" device="SML0805"/>
 <part name="R22" library="resistor" deviceset="R-EU_" device="R0805" value="220"/>
 <part name="LED3" library="led" deviceset="LED" device="SML0805"/>

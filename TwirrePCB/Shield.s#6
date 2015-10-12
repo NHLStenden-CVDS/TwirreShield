@@ -14393,7 +14393,7 @@ W = angled&lt;p&gt;
 <part name="C1" library="resistor" deviceset="CPOL-EU" device="153CLV-1010" value="560uF"/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="resistor" deviceset="CPOL-EU" device="153CLV-0605"/>
+<part name="C2" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="47uF"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
