@@ -14274,13 +14274,13 @@ W = angled&lt;p&gt;
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R20" library="resistor" deviceset="R-EU_" device="R0805" value="100"/>
+<part name="R20" library="resistor" deviceset="R-EU_" device="R0805" value="220"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="R0805" value="100"/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="R0805" value="100"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="R0805" value="220"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="R0805" value="220"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="Arduino-Boards" deviceset="RGB5MM" device="RGB5MM"/>
 <part name="U$2" library="Arduino-Boards" deviceset="JST-4" device=""/>
@@ -14311,7 +14311,7 @@ W = angled&lt;p&gt;
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
-<part name="R21" library="resistor" deviceset="R-EU_" device="R0805" value="100"/>
+<part name="R21" library="resistor" deviceset="R-EU_" device="R0805" value="220"/>
 <part name="LED2" library="led" deviceset="LED" device="SML0805"/>
 <part name="R22" library="resistor" deviceset="R-EU_" device="R0805" value="220"/>
 <part name="LED3" library="led" deviceset="LED" device="SML0805"/>
@@ -14900,11 +14900,6 @@ W = angled&lt;p&gt;
 <label x="83.82" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="3"/>
-<wire x1="180.34" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
-<label x="154.94" y="127" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV2" gate="G$1" pin="5"/>
 <wire x1="154.94" y1="88.9" x2="154.94" y2="81.28" width="0.1524" layer="91"/>
 </segment>
@@ -14940,11 +14935,6 @@ W = angled&lt;p&gt;
 <pinref part="U1" gate="G$1" pin="HS_SDA"/>
 <wire x1="73.66" y1="22.86" x2="88.9" y2="22.86" width="0.1524" layer="91"/>
 <label x="83.82" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="4"/>
-<wire x1="180.34" y1="129.54" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
-<label x="154.94" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SV2" gate="G$1" pin="6"/>
@@ -15096,6 +15086,11 @@ W = angled&lt;p&gt;
 <wire x1="73.66" y1="109.22" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
 <label x="86.36" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="4"/>
+<wire x1="180.34" y1="129.54" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
+<label x="154.94" y="129.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL_HS" class="0">
 <segment>
@@ -15113,6 +15108,11 @@ W = angled&lt;p&gt;
 <pinref part="U1" gate="G$1" pin="21(SCL)"/>
 <wire x1="73.66" y1="106.68" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
 <label x="86.36" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="3"/>
+<wire x1="180.34" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
+<label x="154.94" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
