@@ -796,14 +796,10 @@
 <wire x1="-1.905" y1="0" x2="3.00355" y2="1.27" width="0.127" layer="21" curve="-150.255119" cap="flat"/>
 <wire x1="3.00355" y1="1.27" x2="3.00355" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="3.00355" y1="-1.27" x2="-1.905" y2="0" width="0.127" layer="21" curve="-150.255119" cap="flat"/>
-<pad name="P1" x="-1.27" y="0" drill="0.7" diameter="1.016"/>
-<pad name="P2" x="0" y="0" drill="0.7" diameter="1.016"/>
-<pad name="C" x="1.27" y="0" drill="0.7" diameter="1.016"/>
-<pad name="P3" x="2.54" y="0" drill="0.7" diameter="1.016"/>
-<pad name="P$1" x="-1.27" y="2.54" drill="0.6"/>
-<pad name="P$2" x="0" y="2.54" drill="0.6"/>
-<pad name="P$3" x="1.27" y="2.54" drill="0.6"/>
-<pad name="P$4" x="2.54" y="2.54" drill="0.6"/>
+<pad name="P1" x="-1.27" y="0" drill="0.6"/>
+<pad name="P2" x="0" y="0" drill="0.6"/>
+<pad name="C" x="1.27" y="0" drill="0.6"/>
+<pad name="P3" x="2.54" y="0" drill="0.6"/>
 </package>
 <package name="JST-4">
 <wire x1="-3.75" y1="-2.3" x2="-3.75" y2="-2.85" width="0.127" layer="21"/>
@@ -956,6 +952,25 @@
 <pad name="4" x="3.75" y="-0.4" drill="0.7" diameter="1.4224"/>
 <pad name="5" x="6.25" y="-0.4" drill="0.7" diameter="1.4224"/>
 <pad name="6" x="8.75" y="-0.4" drill="0.7" diameter="1.4224"/>
+</package>
+<package name="IDC-8WAY">
+<pad name="3" x="-1.27" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="4" x="1.27" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="6" x="1.27" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="5" x="-1.27" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="7" x="-1.27" y="-3.81" drill="0.8" shape="octagon"/>
+<pad name="8" x="1.27" y="-3.81" drill="0.8" shape="octagon"/>
+<pad name="1" x="-1.27" y="3.81" drill="0.8" shape="octagon"/>
+<pad name="2" x="1.27" y="3.81" drill="0.8" shape="octagon"/>
+<wire x1="-4.445" y1="8.89" x2="4.445" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-8.89" x2="4.445" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="8.89" x2="-4.445" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-8.89" x2="4.445" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-2.54" x2="4.445" y2="2.54" width="0.127" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="4.445" y2="8.89" width="0.127" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="3.175" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="3.175" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="4.445" y2="-2.54" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1165,6 +1180,20 @@
 <wire x1="7.62" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <pin name="5" x="-5.08" y="-12.7" visible="pin" length="middle"/>
 <pin name="6" x="-5.08" y="-15.24" visible="pin" length="middle"/>
+</symbol>
+<symbol name="IDC-8WAY">
+<pin name="1" x="-12.7" y="5.08" length="middle"/>
+<pin name="3" x="-12.7" y="2.54" length="middle"/>
+<pin name="5" x="-12.7" y="0" length="middle"/>
+<pin name="7" x="-12.7" y="-2.54" length="middle"/>
+<pin name="2" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="4" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="6" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="8" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1392,6 +1421,18 @@
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IDC-8WAY">
+<gates>
+<gate name="G$1" symbol="IDC-8WAY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IDC-8WAY">
 <technologies>
 <technology name=""/>
 </technologies>
