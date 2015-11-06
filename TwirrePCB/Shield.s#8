@@ -14343,8 +14343,8 @@ W = angled&lt;p&gt;
 <text x="200.66" y="190.5" size="1.778" layer="91">SCL</text>
 <text x="200.66" y="195.58" size="1.778" layer="91">+</text>
 <text x="200.66" y="187.96" size="1.778" layer="91">-</text>
-<text x="-149.86" y="86.36" size="1.778" layer="91" rot="R90">MAX 4.2V PER CELL</text>
-<text x="-152.4" y="86.36" size="1.778" layer="91" rot="R90">16.8V TOTAL</text>
+<text x="-147.32" y="86.36" size="1.778" layer="91" rot="R90">MAX 4.2V PER CELL</text>
+<text x="-149.86" y="86.36" size="1.778" layer="91" rot="R90">16.8V TOTAL</text>
 <text x="-111.76" y="91.44" size="1.778" layer="91">4.2V</text>
 <text x="-93.98" y="93.98" size="1.778" layer="91">8.4V</text>
 <text x="-78.74" y="96.52" size="1.778" layer="91">12.6V</text>

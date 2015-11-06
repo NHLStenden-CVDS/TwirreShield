@@ -811,10 +811,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.9" y1="-2.3" x2="-3.75" y2="-2.3" width="0.127" layer="21"/>
 <wire x1="-2.9" y1="-2.3" x2="-2.9" y2="-2.85" width="0.127" layer="21"/>
 <wire x1="2.85" y1="-2.3" x2="2.85" y2="-2.85" width="0.127" layer="21"/>
-<pad name="1" x="-3.75" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="2" x="-1.25" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="3" x="1.25" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="4" x="3.75" y="-0.4" drill="0.7" diameter="1.4224"/>
+<pad name="1" x="-3.75" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="2" x="-1.25" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="3" x="1.25" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="4" x="3.75" y="-0.4" drill="1" diameter="1.9304"/>
 <wire x1="-5.65" y1="-1.35" x2="-6.2" y2="-1.35" width="0.127" layer="21"/>
 <wire x1="-5.65" y1="-2.2" x2="-5.65" y2="-1.35" width="0.127" layer="21"/>
 <wire x1="-5.65" y1="-2.2" x2="-6.2" y2="-2.2" width="0.127" layer="21"/>
@@ -837,17 +837,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.9" y1="-2.3" x2="-3.75" y2="-2.3" width="0.127" layer="21"/>
 <wire x1="-2.9" y1="-2.3" x2="-2.9" y2="-2.85" width="0.127" layer="21"/>
 <wire x1="5.35" y1="-2.3" x2="5.35" y2="-2.85" width="0.127" layer="21"/>
-<pad name="1" x="-3.75" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="2" x="-1.25" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="3" x="1.25" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="5" x="6.25" y="-0.4" drill="0.7" diameter="1.4224"/>
+<pad name="1" x="-3.75" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="2" x="-1.25" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="3" x="1.25" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="5" x="6.25" y="-0.4" drill="1" diameter="1.9304"/>
 <wire x1="-5.65" y1="-1.35" x2="-6.2" y2="-1.35" width="0.127" layer="21"/>
 <wire x1="-5.65" y1="-2.2" x2="-5.65" y2="-1.35" width="0.127" layer="21"/>
 <wire x1="-5.65" y1="-2.2" x2="-6.2" y2="-2.2" width="0.127" layer="21"/>
 <wire x1="8.15" y1="-2.3" x2="8.7" y2="-2.3" width="0.127" layer="21"/>
 <wire x1="8.15" y1="-1.45" x2="8.15" y2="-2.3" width="0.127" layer="21"/>
 <wire x1="8.15" y1="-1.45" x2="8.7" y2="-1.45" width="0.127" layer="21"/>
-<pad name="4" x="3.75" y="-0.4" drill="0.7" diameter="1.4224"/>
+<pad name="4" x="3.75" y="-0.4" drill="1" diameter="1.9304"/>
 </package>
 <package name="JST-3">
 <wire x1="-3.75" y1="-2.3" x2="-3.75" y2="-2.85" width="0.127" layer="21"/>
@@ -864,9 +864,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.9" y1="-2.3" x2="-3.75" y2="-2.3" width="0.127" layer="21"/>
 <wire x1="-2.9" y1="-2.3" x2="-2.9" y2="-2.85" width="0.127" layer="21"/>
 <wire x1="0.35" y1="-2.3" x2="0.35" y2="-2.85" width="0.127" layer="21"/>
-<pad name="1" x="-3.75" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="2" x="-1.25" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="3" x="1.25" y="-0.4" drill="0.7" diameter="1.4224"/>
+<pad name="1" x="-3.75" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="2" x="-1.25" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="3" x="1.25" y="-0.4" drill="1" diameter="1.9304"/>
 <wire x1="-5.65" y1="-1.35" x2="-6.2" y2="-1.35" width="0.127" layer="21"/>
 <wire x1="-5.65" y1="-2.2" x2="-5.65" y2="-1.35" width="0.127" layer="21"/>
 <wire x1="-5.65" y1="-2.2" x2="-6.2" y2="-2.2" width="0.127" layer="21"/>
@@ -886,8 +886,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-6.2" y1="-2.85" x2="-6.2" y2="2.9" width="0.127" layer="21"/>
 <wire x1="-1.25" y1="-2.3" x2="-2.15" y2="-2.3" width="0.127" layer="21"/>
 <wire x1="-2.15" y1="-2.3" x2="-3.75" y2="-2.3" width="0.127" layer="21"/>
-<pad name="1" x="-3.75" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="2" x="-1.25" y="-0.4" drill="0.7" diameter="1.4224"/>
+<pad name="1" x="-3.75" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="2" x="-1.25" y="-0.4" drill="1" diameter="1.9304"/>
 <wire x1="-5.65" y1="-1.35" x2="-6.2" y2="-1.35" width="0.127" layer="21"/>
 <wire x1="-5.65" y1="-2.2" x2="-5.65" y2="-1.35" width="0.127" layer="21"/>
 <wire x1="-5.65" y1="-2.2" x2="-6.2" y2="-2.2" width="0.127" layer="21"/>
@@ -935,18 +935,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.9" y1="-2.3" x2="-3.75" y2="-2.3" width="0.127" layer="21"/>
 <wire x1="-2.9" y1="-2.3" x2="-2.9" y2="-2.85" width="0.127" layer="21"/>
 <wire x1="7.85" y1="-2.3" x2="7.85" y2="-2.85" width="0.127" layer="21"/>
-<pad name="1" x="-3.75" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="2" x="-1.25" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="3" x="1.25" y="-0.4" drill="0.7" diameter="1.4224"/>
+<pad name="1" x="-3.75" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="2" x="-1.25" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="3" x="1.25" y="-0.4" drill="1" diameter="1.9304"/>
 <wire x1="-5.65" y1="-1.35" x2="-6.2" y2="-1.35" width="0.127" layer="21"/>
 <wire x1="-5.65" y1="-2.2" x2="-5.65" y2="-1.35" width="0.127" layer="21"/>
 <wire x1="-5.65" y1="-2.2" x2="-6.2" y2="-2.2" width="0.127" layer="21"/>
 <wire x1="10.65" y1="-2.3" x2="11.2" y2="-2.3" width="0.127" layer="21"/>
 <wire x1="10.65" y1="-1.45" x2="10.65" y2="-2.3" width="0.127" layer="21"/>
 <wire x1="10.65" y1="-1.45" x2="11.2" y2="-1.45" width="0.127" layer="21"/>
-<pad name="4" x="3.75" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="5" x="6.25" y="-0.4" drill="0.7" diameter="1.4224"/>
-<pad name="6" x="8.75" y="-0.4" drill="0.7" diameter="1.4224"/>
+<pad name="4" x="3.75" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="5" x="6.25" y="-0.4" drill="1" diameter="1.9304"/>
+<pad name="6" x="8.75" y="-0.4" drill="1" diameter="1.9304"/>
 </package>
 <package name="IDC-8WAY">
 <pad name="3" x="-1.27" y="1.27" drill="0.8" shape="octagon"/>

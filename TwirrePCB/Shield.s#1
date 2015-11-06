@@ -981,6 +981,73 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="10.16" y1="2.54" x2="10.16" y2="0" width="0.127" layer="21"/>
 <wire x1="10.16" y1="0" x2="-10.16" y2="0" width="0.127" layer="21"/>
 </package>
+<package name="NHLLOGO">
+<wire x1="0" y1="0" x2="0" y2="-7.3" width="0.127" layer="21"/>
+<wire x1="0" y1="-7.3" x2="1.3" y2="-7.3" width="0.127" layer="21"/>
+<wire x1="3.8" y1="-7.3" x2="5.1" y2="-7.3" width="0.127" layer="21"/>
+<wire x1="6.2" y1="-7.3" x2="7.5" y2="-7.3" width="0.127" layer="21"/>
+<wire x1="9.5" y1="-7.3" x2="10.8" y2="-7.3" width="0.127" layer="21"/>
+<wire x1="11.7" y1="-7.3" x2="14.7" y2="-7.3" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-7.3" x2="1.3" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="3.8" y1="-7.3" x2="3.8" y2="-5.8" width="0.127" layer="21"/>
+<wire x1="3.8" y1="-3.8" x2="3.8" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="5.1" y1="-7.3" x2="5.1" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="3.8" y1="-3.8" x2="1.3" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-0.2" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="3.8" y1="-0.6" x2="5.1" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="3.8" y1="-5.8" x2="1.3" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="6.2" y1="-7.3" x2="6.2" y2="-1" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-7.3" x2="7.5" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-4" x2="7.5" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-1.2" x2="6.2" y2="-1" width="0.127" layer="21"/>
+<wire x1="9.5" y1="-7.3" x2="9.5" y2="-4.7" width="0.127" layer="21"/>
+<wire x1="9.5" y1="-3.3" x2="9.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="10.8" y1="-7.3" x2="10.8" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="10.8" y1="-1.7" x2="9.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="11.7" y1="-7.3" x2="11.7" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="13" y1="-6" x2="13" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="13" y1="-2.1" x2="11.7" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="15.3" y1="-6" x2="13" y2="-6" width="0.127" layer="21"/>
+<wire x1="15.3" y1="-6" x2="14.7" y2="-7.3" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-5.5" x2="9.5" y2="-4.7" width="0.127" layer="21"/>
+<wire x1="9.5" y1="-3.3" x2="7.5" y2="-4" width="0.127" layer="21"/>
+<text x="-0.2" y="-9.9" size="1.6764" layer="21" distance="55">COMPUTER VISION</text>
+<polygon width="0.127" layer="21">
+<vertex x="0" y="-7.3"/>
+<vertex x="0" y="0"/>
+<vertex x="1.3" y="-0.2"/>
+<vertex x="3.8" y="-3.8"/>
+<vertex x="3.8" y="-0.6"/>
+<vertex x="5.1" y="-0.8"/>
+<vertex x="5.1" y="-7.3"/>
+<vertex x="3.8" y="-7.3"/>
+<vertex x="3.8" y="-5.8"/>
+<vertex x="1.3" y="-2.5"/>
+<vertex x="1.3" y="-7.3"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="6.2" y="-7.3"/>
+<vertex x="7.5" y="-7.3"/>
+<vertex x="7.5" y="-5.5"/>
+<vertex x="9.5" y="-4.7"/>
+<vertex x="9.5" y="-7.3"/>
+<vertex x="10.8" y="-7.3"/>
+<vertex x="10.8" y="-1.7"/>
+<vertex x="9.5" y="-1.5"/>
+<vertex x="9.5" y="-3.3"/>
+<vertex x="7.5" y="-4"/>
+<vertex x="7.5" y="-1.2"/>
+<vertex x="6.2" y="-1"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="14.7" y="-7.3"/>
+<vertex x="11.7" y="-7.3"/>
+<vertex x="11.7" y="-1.9"/>
+<vertex x="13" y="-2.1"/>
+<vertex x="13" y="-6"/>
+<vertex x="15.3" y="-6"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO-MEGA">
@@ -1217,6 +1284,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.7" y1="5.08" x2="12.7" y2="12.7" width="0.254" layer="94"/>
 <wire x1="12.7" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="12.7" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="NHLLOGO">
+<text x="-12.7" y="0" size="1.6764" layer="94" distance="55">NHL COMPUTER VISION</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1488,6 +1558,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="7" pad="P$7"/>
 <connect gate="G$1" pin="8" pad="P$8"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NHLLOGO">
+<gates>
+<gate name="G$1" symbol="NHLLOGO" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="NHLLOGO">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14731,6 +14813,7 @@ High-power, low thermal resistance package.</description>
 <part name="T4" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC808" value="FMMT491A "/>
 <part name="U$26" library="Arduino-Boards" deviceset="OLEDHEADER" device=""/>
 <part name="U$27" library="Arduino-Boards" deviceset="OLEDHEADER" device=""/>
+<part name="U$28" library="Arduino-Boards" deviceset="NHLLOGO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14890,6 +14973,7 @@ High-power, low thermal resistance package.</description>
 <instance part="T4" gate="G$1" x="223.52" y="17.78"/>
 <instance part="U$26" gate="G$1" x="152.4" y="88.9"/>
 <instance part="U$27" gate="G$1" x="154.94" y="71.12" rot="R180"/>
+<instance part="U$28" gate="G$1" x="50.8" y="144.78"/>
 </instances>
 <busses>
 </busses>

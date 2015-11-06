@@ -14753,6 +14753,8 @@ High-power, low thermal resistance package.</description>
 <text x="187.96" y="116.84" size="1.778" layer="91">Lidar</text>
 <text x="-17.78" y="53.34" size="1.778" layer="91" rot="R90">PWM IN</text>
 <text x="-17.78" y="25.4" size="1.778" layer="91" rot="R90">PWM OUT</text>
+<text x="167.64" y="99.06" size="1.778" layer="91">https://www.sparkfun.com/products/13003</text>
+<text x="167.64" y="96.52" size="1.778" layer="91">SparkFun Micro OLED</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="53.34" y="76.2"/>
