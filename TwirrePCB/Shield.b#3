@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -2684,7 +2684,7 @@ design rules under a new name.</description>
 <element name="T4" library="transistor" package="SOT23-BEC" value="FMMT491A " x="32.0675" y="24.765" rot="R90"/>
 <element name="U$26" library="Arduino-Boards" package="OLEDHEADER" value="OLEDHEADER" x="18.7325" y="33.655"/>
 <element name="U$27" library="Arduino-Boards" package="OLEDHEADER" value="OLEDHEADER" x="18.7325" y="18.415" rot="R180"/>
-<element name="U$28" library="Arduino-Boards" package="NHLLOGO" value="NHLLOGO" x="-0.635" y="-1.27"/>
+<element name="U$28" library="Arduino-Boards" package="NHLLOGO" value="NHLLOGO" x="20.32" y="14.605"/>
 </elements>
 <signals>
 <signal name="SPI_CS">
